@@ -1,0 +1,88 @@
+body{ 
+    margin:0px 0px 0px 0px;
+    font-family: Comic Sans MS,arial,helvetica,sans-serif;
+}
+
+.back {
+  width: 100%;
+  height: 400px;
+  background-color: rgb(0, 0, 0);
+  margin: 200px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rgb {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rgbs {
+  width: 100%;
+  margin: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.rname, .gname, .bname {
+  width: 25%;
+  font-size: 20px;
+  display:flex;
+  justify-content:center;
+  align-items:center:
+}
+
+.rcolor, .gcolor, .bcolor {
+  width: 25%;
+  font-size: 20px;
+  display:flex;
+  justify-content:center;
+  align-items:center:
+}
+
+.rname, .rcolor {
+  background-color: rgb(255,0,0);
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 25px;
+}
+
+.gname, .gcolor {
+    background-color: rgb(0,255,0);
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 25px;
+}
+
+.bname, .bcolor {
+  background-color: rgb(0,0,255);
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 25px;
+}
+
+.rcolrtext, .gcolrtext, .bcolrtext, .red, .green, .blue {
+  padding: 5px;
+}
+
+.hex {
+  width: 95%;
+  height: 80px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255,255,255);
+  border-radius: 25px;
+}
+
+.hextext {
+  font-size: 55px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: #000000;
+}
